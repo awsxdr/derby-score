@@ -1,0 +1,19 @@
+[package]
+name = "derby-score"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+async-trait = "0.1"
+clap = { version = "4", features = [ "derive" ] }
+cqrs-es = "0.4"
+sqlite-es = "0.4"
+log = "0.4"
+serde = { version = "1.0", features = [ "derive" ] } 
+simplelog = "*"
+tokio = { version = "1", features = [ "full" ] }
+warp = "*"
+websocket = "*"
+
