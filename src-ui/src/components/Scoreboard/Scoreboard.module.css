@@ -1,0 +1,90 @@
+.scoreboardBackground {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.scoreboardBackground>div {
+    display: inline-block;
+}
+
+.scoreboardContainer {
+    width: 100%;
+    height: 100%;
+    max-width: 125vh;
+}
+
+.scoreboard {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.scoresContainer {
+    display: flex;
+    align-items: baseline;
+    text-align: center;
+}
+
+.logosContainer {
+    flex: 1 1 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+}
+
+.logoContainer {
+    max-width: 40%;
+    max-height: 80%;
+    display: flex;
+    flex-grow: 1;
+}
+
+.logoContainer>img {
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.clocksContainer {
+    flex: 1 1 0;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.clockLabel {
+    flex: 1 1 0;
+    text-align: right;
+    font-size: 3vh;
+    color: #bbb;
+}
+
+.jamClock {
+    font-size: 10vh;
+    color: white;
+}
+
+.periodClock {
+    font-size: 10vh;
+    color: white;
+}
+
+.clockContainer {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 20px;
+    flex: 1 1 0;
+}
+
+.timeoutsContainer {
+    display: flex;
+}

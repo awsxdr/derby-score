@@ -1,0 +1,13 @@
+@import "@blueprintjs/core/lib/scss/variables";
+
+.controlPanelContent {
+    padding-top: $pt-navbar-height + 10px;
+    min-height: 100vh;
+    background-color: $white;
+    display: flex;
+    flex-direction: column;
+
+    :global(.bp4-dark) & {
+        background-color: $gray1;
+    }
+}

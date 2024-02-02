@@ -1,0 +1,18 @@
+@import "@blueprintjs/core/lib/scss/variables";
+
+.cardHeader {
+    display: flex;
+    background: linear-gradient(to bottom, $light-gray5, $light-gray3);
+    margin: -20px -20px 0 -20px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 2px 2px 0 0;
+    box-shadow: inset 0 1px 0 1px rgba(255, 255, 255, 0.2);
+
+    :global(.bp4-dark) & {
+        background: linear-gradient(to bottom, $dark-gray5, $dark-gray3);
+    }
+}
+
+.cardTitle {
+    flex-grow: 1;
+}

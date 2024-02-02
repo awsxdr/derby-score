@@ -1,0 +1,26 @@
+.teamsContainer {
+    display: flex;
+    align-items: flex-start;
+}
+
+.teamContainer {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    flex-direction: column;
+}
+
+.controlButtons {
+    padding-top: 5vh;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.clocksContainer {
+    display: flex;
+}
+
+.padding {
+    flex-grow: 1;
+}

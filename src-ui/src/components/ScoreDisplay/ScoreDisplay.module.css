@@ -1,0 +1,31 @@
+.scoreDisplay {
+    line-height: 18vh;
+    background: white;
+    border-radius: 10vh;
+    display: inline-block;
+    font-size: 18vh;
+    font-weight: bold;
+    height: 20vh;
+    margin: 50px;
+    margin-bottom: 20px;
+    flex-grow: 1;
+}
+
+.passScoreDisplay {
+    line-height: 6.5vh;
+    font-size: 5vh;
+    border-radius: 50%;
+    height: 7vh;
+    width: 7vh;
+    margin: 20px;
+    background-color: #bbb;
+    flex-grow: initial;
+}
+
+.homeScore {
+    margin-right: -25px;
+}
+
+.awayScore {
+    margin-left: -25px;
+}

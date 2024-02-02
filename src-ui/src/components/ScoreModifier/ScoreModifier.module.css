@@ -1,0 +1,17 @@
+.scoreModifier {
+    display: inline-flex;
+    height: inherit;
+    align-items: center;
+}
+
+.scoreContainer {
+    font-size: 12vh;
+    margin: 0 2vw;
+    min-width: 10vw;
+    text-align: center;
+}
+
+.buttonsContainer {
+    display: flex;
+    gap: 3px;
+}

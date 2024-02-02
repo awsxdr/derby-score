@@ -1,0 +1,1 @@
+export { ScoreboardControlPanelPage } from './ScoreboardControlPanelPage';

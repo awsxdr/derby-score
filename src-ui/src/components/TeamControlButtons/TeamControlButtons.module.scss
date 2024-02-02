@@ -1,0 +1,12 @@
+@import "@blueprintjs/core/lib/scss/variables";
+
+.clearActiveButton:global(.bp4-active) {
+    /* TODO: Figure out how to avoid the !important attribute here */
+    background-color: $gray3 !important;
+    color: $white !important;
+
+    :global(.bp4-dark) & {
+        background-color: $gray5 !important;
+        color: $black !important;
+    }
+}

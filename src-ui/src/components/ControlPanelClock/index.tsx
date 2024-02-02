@@ -1,0 +1,1 @@
+export { ControlPanelClock } from './ControlPanelClock';

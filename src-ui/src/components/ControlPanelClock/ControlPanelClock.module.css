@@ -1,0 +1,10 @@
+.controlPanelClock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.clock {
+    font-size: 10vh;
+}
